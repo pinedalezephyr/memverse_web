@@ -14,7 +14,7 @@
         android:layout_centerHorizontal="true"
         android:text="START MEMORIZING NOW"
         android:textColor="#6200EA"
-        android:textSize="25dp"
+        android:textSize="25sp"
         android:textStyle="bold" />
 
     <Button
@@ -74,7 +74,7 @@
         android:layout_centerHorizontal="true"
         android:text="Psalm 119:11: I have hidden your word in my heart!"
         android:textColor="#000"
-        android:textSize="12dp"
+        android:textSize="12sp"
         android:textStyle="bold" />
 
 
