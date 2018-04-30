@@ -30,7 +30,17 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent2);
         }
     }
-// this is calls Web page when register button pressed!
+// this is calls Web page when facebook   button pressed!
+
+
+    public void open_facebook(View view){
+        Uri webpage3 = Uri.parse("https://www.facebook.com/Memverse/");
+        Intent intent3 = new Intent(Intent.ACTION_VIEW,webpage3);
+        if (intent3.resolveActivity(getPackageManager()) != null) {
+            startActivity(intent3);
+        }
+    }
+    // this is calls Web page when register button pressed!
 
 
     public void open_uri(View view) {
